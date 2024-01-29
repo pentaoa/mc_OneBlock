@@ -7169,13 +7169,45 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "potato": "2024-01-24 21:41:46 +0800"
+      "potato": "2024-01-24 21:41:46 +0800",
+      "beetroot": "2024-01-29 21:19:19 +0800"
     },
     "done": false
   },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2024-01-24 21:41:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2024-01-29 21:16:58 +0800",
+      "minecraft:creeper": "2024-01-29 21:44:19 +0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2024-01-29 21:16:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-01-29 21:23:44 +0800"
+    },
+    "done": true
+  },
+  "obs:ob/creeper": {
+    "criteria": {
+      "requirement": "2024-01-29 21:44:19 +0800"
+    },
+    "done": true
+  },
+  "obs:phases/phase_9": {
+    "criteria": {
+      "phase1": "2024-01-29 21:56:40 +0800"
     },
     "done": true
   },

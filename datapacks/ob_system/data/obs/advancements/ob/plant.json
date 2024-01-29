@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "#PlantATree"
+        },
+        "description": {
+            "text": "Place down a oak sapling"
+        },
+        "icon": {
+            "item": "minecraft:oak_sapling"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "criteria": {
+    "sapling": {
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:oak_sapling",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+      "requirements": [
+        [
+            "sapling"
+        ]
+    ],
+    "parent": "obs:ob/sapling"
+}
